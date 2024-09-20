@@ -1,0 +1,184 @@
+.ftco-gallery .gallery-wrap {
+    width: 100%;
+    position: relative;
+    z-index: 0;
+    margin-bottom: 0px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.ftco-gallery .gallery-wrap .img {
+    height: 312px;
+    display: block;
+    position: relative;
+    z-index: 0;
+}
+
+.ftco-gallery .gallery-wrap .img .icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50% 50% 50% 0;
+    background: rgba(255, 255, 255, 0.8);
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    opacity: 0;
+}
+
+.ftco-gallery .gallery-wrap .img .icon span {
+    color: #000000;
+}
+
+.ftco-gallery .gallery-wrap .text {
+    width: 100%;
+    padding: 25px;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.ftco-gallery .gallery-wrap .text h2,
+.ftco-gallery .gallery-wrap .text .h2 {
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+}
+
+.ftco-gallery .gallery-wrap .text span.sub {
+    color: #73b925;
+    font-size: 13px;
+    text-transform: uppercase;
+    display: inline-block;
+    background: #effae4;
+    padding: 1px 5px;
+    border-radius: 2px;
+}
+
+.ftco-gallery .gallery-wrap .text .raised-goal span {
+    font-size: 13px;
+}
+
+.ftco-gallery .gallery-wrap .text .raised-goal span strong {
+    color: #000000;
+    font-weight: 500;
+}
+
+.ftco-gallery .gallery-wrap .text .raised-goal span.goal strong {
+    color: #73b925;
+}
+
+.ftco-gallery .gallery-wrap:hover .icon {
+    opacity: 1;
+}
+
+.progress-wrap {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.progress-wrap h3,
+.progress-wrap .h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.progress {
+    height: 15px;
+    box-shadow: none;
+    background: rgba(0, 0, 0, 0.05);
+    overflow: visible;
+}
+
+.progress-bar {
+    background: #d7f1b9;
+    box-shadow: none;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #73b925;
+    font-weight: 600;
+    position: relative;
+    overflow: visible;
+    border-radius: 2px;
+}
+
+.progress-bar:after {
+    position: absolute;
+    top: -2px;
+    right: 0;
+    width: 34px;
+    height: 34px;
+    content: '';
+    background: #73b925;
+    border-radius: 2px;
+    opacity: 0;
+}
+
+.progress-bar span {
+    color: #73b925;
+    font-weight: 400;
+}
+
+
+.progress {
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: 0.75rem;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+}
+
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    transition: width 0.6s ease;
+}
+
+
+
+.block-27 ul {
+    padding: 0;
+    margin: 0;
+}
+
+.block-27 ul li {
+    display: inline-block;
+    margin-bottom: 4px;
+    font-weight: 400;
+}
+
+.block-27 ul li a,
+.block-27 ul li span {
+    color: #000000;
+    text-align: center;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 4px;
+    border: 1px solid #e6e6e6;
+    background: trasparent;
+}
+
+.block-27 ul li.active a,
+.block-27 ul li.active span,
+.block-27 ul li:hover a,
+.block-27 ul li:hover span {
+    background: #73b925;
+    color: #fff;
+    border: 1px solid transparent;
+}

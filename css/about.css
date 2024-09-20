@@ -1,0 +1,109 @@
+.ftco-section-counter {
+    padding: 5em 0;
+    position: relative;
+    z-index: 0;
+}
+
+.ftco-section-counter .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .9;
+    background: #73b925;
+    z-index: -1;
+}
+
+.section-counter .icon {
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.section-counter .icon span {
+    font-size: 50px;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.section-counter .counter-wrap-2 {
+    width: 100%;
+    position: relative;
+    z-index: 0;
+    display: block;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 4px;
+}
+
+@media (max-width: 991.98px) {
+    .section-counter .counter-wrap-2 {
+        margin-bottom: 20px !important;
+    }
+}
+
+.section-counter small,
+.section-counter .small {
+    font-size: 44px;
+}
+
+.section-counter .number {
+    font-size: 44px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1;
+    display: inline-block;
+    margin-bottom: 5px;
+    display: block;
+    letter-spacing: 2px;
+}
+
+.section-counter .caption {
+    font-weight: 600;
+    font-size: 14px;
+    display: block;
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+}
+
+
+
+.fund-raised {
+    width: 100%;
+    display: inline-block;
+    background: #f9faf7;
+    padding: 10px 30px;
+    margin-left: -48px;
+}
+
+@media (max-width: 767.98px) {
+    .fund-raised {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+.fund-raised .icon span {
+    color: #73b925;
+    font-size: 60px;
+}
+
+.fund-raised .text {
+    padding-left: 20px;
+}
+
+.fund-raised .text h4,
+.fund-raised .text .h4 {
+    margin-bottom: 0;
+    color: #73b925;
+    font-size: 40px;
+}
+
+.fund-raised .text span {
+    color: rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+}
